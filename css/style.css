@@ -1,0 +1,84 @@
+body {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.container {
+  max-width: 1200px;
+}
+.container-fluid {
+  max-width: 1500px;
+}
+.ul-reset {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.link-page {
+  font-weight: 400;
+  text-decoration: none;
+}
+.heading{
+  color: #006400;
+  text-align: center;
+}
+.spacing {
+  padding: 20px 0px;
+}
+.header-section {
+  background-color: #cce2cb;
+}
+.header-section .nav-link {
+  color: #006400;
+  font-weight: 600;
+  font-size: 18px;
+}
+.header-icon {
+  border-color: rgba(0, 0, 0, 0.1);
+  background-image: url(../images/toggler.svg);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-position: center;
+}
+.header-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+.copyright {
+  text-align: center;
+  font-weight: 400;
+  font-size: 13px;
+}
+.footer-section {
+  background-color: #b6cfb6;
+}
+.banner {
+  margin-top: 87px;
+  background-image:url(../images/banner.jpg);
+  background-size: cover;
+  min-height: 650px;
+}
+.banner .text{
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Quintessential', cursive;
+  width:40%;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+  /*background-image: linear-gradient(#006400, #b6cfb6);*/
+}
+.contents img {
+  min-height: 700px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .banner{
+    min-height: 250px;
+  }
+  .contents img{
+    min-height: 350px;
+    width: 100%;
+  }
+}
